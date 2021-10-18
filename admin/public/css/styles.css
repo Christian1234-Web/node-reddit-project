@@ -1,0 +1,150 @@
+.flex{
+    display: inline-flex;
+  }
+.adminContainer{
+    max-width: 900px;
+    min-width:320px;
+    margin: 0 auto;
+    padding-top:100px;
+    font-size: 14px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;box-sizing: border-box;
+    background-color: white;
+}
+.adminHeader{
+    margin-top: 10px;
+}
+
+.adminHdCnt{
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+    width: 150px;background-color: #fff;
+    border-radius: 5px;
+    height: 24rem;
+    border: 5px solid red;
+
+}
+.adminHdCnt li{
+    list-style: none;
+    line-height: 4.0;
+    border-bottom: 1px solid #222;
+}
+.adminHdCnt a{
+    text-decoration:none;
+    color: #131A22;font-weight: 600;padding: 10px;font-size: 15px;cursor:pointer;
+}
+.adminHdCnt li:hover{
+background-color: rgb(119, 20, 20);
+color:#fff;
+}
+.adminHdCnt a:hover{
+    /* background-color: rgb(119, 20, 20); */
+    color:#fff;
+}
+.adminBanner01{
+ box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+padding:15px;
+width:800px;
+height: 60px;
+margin-left: 20px;
+border-radius:5px;
+animation: headerBeat 4.5s ease infinite; transition: ease;
+}
+@keyframes headerBeat{
+
+    0%{ transform: rotate(0deg) scale(0.9);}
+    
+    50%{ transform: rotate(0deg) scale(1);}
+    100%{ transform: rotate(0deg) scale(0.9);}
+    }
+.adminBanner01 h5{
+    display: flex;justify-content: center;align-items: center;
+    font-size:25px;
+    font-weight:700;
+    color:#fff;
+}
+.adminCreatePost{
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+    margin-top:30px;
+    margin-left: 20px;
+    padding: 20px;
+    width:800px;
+    height: 60px;
+    border-radius:5px;
+    height:100%;
+}
+.adminViewPro{
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+    margin-top:30px;
+    margin-left: 20px;
+    padding: 20px;
+    width:50rem;
+    height: 60px;
+    border-radius:5px;
+    height:auto;
+}
+
+.btnHomePage{
+    width:150px;
+    animation: headerBeat 4.5s ease infinite; transition: ease;
+
+}
+.btnHomePage a{
+    background-color: rgb(17, 107, 143);
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #131A22;border-radius: 5px;
+}
+.btnHomePage a:hover{
+    background-color: rgb(42, 182, 218);
+    color: #fff;
+    text-decoration: none;
+    animation: none;
+    transition: none;
+}
+.btnHomePage:hover{
+    animation: none;
+    transition: none;
+}
+
+.adminBannerBody{
+width:100%;}
+.adminBannerCont1{
+    width:100%;
+}
+h5{
+    background: red;
+}
+.adminDashboard{
+    display: flex;
+width:100%;
+justify-content:center;
+    /* margin:0 auto; */
+
+}
+.dashCont{
+    width:20rem;
+    background-color: red;
+    height:10rem;margin:10px;
+    border:1px solid #fff;
+    border-radius:10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+}
+.dashCont h1{
+    /* display: flex;justify-content: center;align-items: center; */
+    text-align: center;
+    font-size:25px;
+    font-weight:700;
+    padding-top:30px;
+    color:#fff;
+}
+.dashCont p{
+    display: flex;justify-content: center;align-items: center;
+    font-size:20px;
+    font-weight:700;
+    color:#fff;
+}
+.error_msg{
+    font-size: 11px;color:#fff;text-align:center
+  }
+  #error_msg {
+    font-size: 11px;color:#fff;text-align:center;background:red;padding:10px;
+  }

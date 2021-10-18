@@ -1,0 +1,32 @@
+The Aim of the project is to allow you perform the basic CRUD operation using a blog model.
+You are to design the frontend that has been given to you and for the backend you are to 
+follow the usecase drawn for you.
+1. You should be able to login to the admin panel with the admin username and password
+2. Admin should be able to view basic statistics about the system such as 
+	a. Total post created
+	b. Total user signed up
+3. Admin should be able to create posts that can be viewed on the user frontend
+4. Admin should be able to view all the post made on the platform and you should able to see the following on that view
+
+	a. The total comment the post has 
+	b. The total like the post has
+	c. To the able to edit the post.(caption,description,image url)
+5. Admin should be able to see all the users who registers in a tabular format.
+
+
+
+HOW TO HOST A WEBSITE;
+# Sign in or create a account;
+# push to your git hub repository;
+#deploy the website
+
+GIT HOW YO HOST
+# git init
+# git status
+#dont commit node_modules and package-lock.json
+#
+
+
+
+BUILDING A APLLICATION HAS THREE STAGE
+	

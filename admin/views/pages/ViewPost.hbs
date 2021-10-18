@@ -1,0 +1,51 @@
+
+  <section class="flex">
+
+<section>
+{{> hideNav}}
+</section>
+ <section class="">      
+          <div class="adminViewPro">
+<table class="table table-hover" 
+{{!-- style="background: red;color:#fff;" --}}
+id="viewPost"
+>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Image</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+         <th scope="col">Comments</th>
+      <th scope="col">Likes</th> 
+     <th scope="col">Time Posted</th>
+       <th scope="col">Actions</th>
+
+    </tr>
+  </thead>
+  <tbody class="pd">
+  
+  </tbody>
+</table>
+
+
+                <form id="postEdit">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Title of Post</label>
+  <input type="text" name="title" id="postTitle" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Image of Post</label>
+  <input type="text" name="image" id="postImg" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Description of Post</label>
+  <textarea class="form-control" id="postDescription" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+ <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3" id="btnPostUpdate">Update</button>
+  </div>
+  </form>
+ </div>
+        </section>
+        </section>

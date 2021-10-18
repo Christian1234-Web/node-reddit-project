@@ -1,0 +1,29 @@
+
+<section class="flex">
+
+<section>
+{{> hideNav}}
+</section>
+<section class="adminCreatePost" 
+{{!-- style="background: red;color:rgb(248, 145, 145);" --}}
+>
+      <div className="error_msg"> <p id="error_msg"></p> </div>
+                <form>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Title of Post</label>
+  <input type="text" name="title" id="postTitle" class="form-control" placeholder="">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Image of Post</label>
+  <input type="text" name="image" id="postImg" class="form-control" placeholder="">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Description of Post</label>
+  <textarea class="form-control" id="postDescription" name="description"  rows="3"></textarea>
+</div>
+ <div class="col-auto">
+    <button type="button" onclick="createPost()" class="btn btn-primary mb-3">Submit</button>
+  </div>
+  </form>
+</section>
+</section>

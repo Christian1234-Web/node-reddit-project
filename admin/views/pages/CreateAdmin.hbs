@@ -1,0 +1,29 @@
+
+
+ <section class="adminCreatePost" 
+     {{!-- style="background: alice;color:rgb(233, 127, 127);" --}}
+     >
+
+      <div className="error_msg"> <p id="error_msg"></p> </div>
+                <form id="formAdCreate">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Username </label>
+  <input type="name" name="username" id="adminUsernameC" class="form-control">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1"  class="form-label">Email</label>
+  <input type="email" name="email" id="adminEmailC" class="form-control">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Password</label>
+  <input type="password" name="password" id="adminPasswordC" class="form-control">
+</div>
+ <div class="col-auto">
+    <button type="button" class="btn btn-primary mb-3" id="btnCreateAd" onclick="createAdmin()">Submit</button> 
+        <p>Already have an account  <a href="/">Login to your account</a> </p>
+
+  </div>
+  </form>
+
+
+ </section>

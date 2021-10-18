@@ -1,0 +1,66 @@
+ 
+  <section class="flex">
+
+<section>
+{{> hideNav}}
+</section>
+  <section>
+
+            <div class="adminViewPro">
+
+<table class="table table-hover" 
+{{!-- style="background: red;color:#fff;" --}}
+id="viewUser"
+>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Username</th>
+      <th scope="col">Email</th>
+     <th scope="col">Password</th>
+       <th scope="col">Status</th>
+       <th scope="col">Actions</th>
+
+
+    </tr>
+  </thead>
+  <tbody class="ud">
+    {{!-- {{#each users}}
+    
+		<tr>
+      	<td>{{_id}}</td>
+			<td>{{username}}</td>
+			<td>{{email}}</td>
+      	<td>{{password}}</td>
+       	<td>
+          <a href="#" userId="{{_id}}" onclick="checkOut()">Edit</a>
+           </td>
+
+		</tr>
+	{{/each}} --}}
+
+  </tbody>
+</table>
+
+             <form id="editForm">
+<div class="mb-3">
+  <label for="exampleFormControlInput1"  class="form-label">Username </label>
+  <input type="name" name="username" id="userName" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" name="email" id="userEmail" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Password</label>
+  <input type="password" name="password" id="userPassword" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+ <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3" id="btnUpdate">Update</button>
+  </div>
+  </form>
+ </div>
+            </section>
+            </section>
+           
+            
